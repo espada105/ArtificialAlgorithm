@@ -1,0 +1,6 @@
+mytuple = (10,20,30)
+mylist = list(mytuple)
+mylist.append(40)
+mytuple = tuple(mylist)
+print(mytuple)
+print(type(mytuple))
