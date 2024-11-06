@@ -11,4 +11,3 @@ class Graph:
     def print_graph(self):
         for vertex in self.graph:
             print(vertex, ":", self.graph[vertex])
-    
