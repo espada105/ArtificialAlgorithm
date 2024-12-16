@@ -18,7 +18,7 @@ def insert(root, key):
 r = Node(1)
 r = insert(r, 2)
 
-
+print(r.right)
 # • 이진 트리 순회 방법
 # • 전위 순회 (Pre-order): • 루트 -> 왼쪽 서브트리 -> 오른쪽 서브트리
 # • 중위 순회 (In-order): • 왼쪽 서브트리 -> 루트 -> 오른쪽 서브트리
